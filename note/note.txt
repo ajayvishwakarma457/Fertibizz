@@ -1,0 +1,17 @@
+1) docker-compose build
+2) docker-compose up
+3) docker-compose down
+
+4) docker-compose up -d
+5) docker-compose down -v
+6) docker-compose down -v --remove-orphans
+7) docker-compose down -v --remove-orphans --rmi all
+8) docker-compose down -v --remove-orphans --rmi all --force
+9) docker-compose down -v --remove-orphans --rmi all --force --volumes
+10) docker-compose down -v --remove-orphans --rmi all --force --volumes --timeout 10
+11) docker-compose down -v --remove-orphans --rmi all --force --volumes --timeout 10
+
+
+1) if i directly install dependencies in container then i need to run this command to start the app
+docker exec -it react-app sh
+
